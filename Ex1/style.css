@@ -1,0 +1,61 @@
+body {
+    font-family: Arial;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color:black;
+}
+
+header {
+    background:black;
+    color:white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px;
+    margin: 0 10px;
+}
+
+section#home {
+    background:white;
+}
+
+section#about {
+    background:#bcbcbc;
+}
+
+section#mywork{
+    background: #dcdcdc;
+}
+
+section#contact {
+    background: #bcbcbc;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding:1px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
